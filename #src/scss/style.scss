@@ -3,18 +3,18 @@
   padding: 0;
 }
 
-.container {
-  background-color: #ffffff;
-  max-width: 1920px;
-  margin: 0 auto;
-}
-
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  background-color: #849D8F;
 }
 
 @@include('_header.scss')
